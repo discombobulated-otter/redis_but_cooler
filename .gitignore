@@ -1,0 +1,66 @@
+# ==========================
+# Build artifacts (CMake)
+# ==========================
+/build/
+/build-debug/
+/build-release/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# ==========================
+# Compiled binaries
+# ==========================
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.obj
+
+# ==========================
+# VSCode
+# ==========================
+.vscode/
+.vscode-test/
+*.code-workspace
+
+# VSCode CMake Tools extension
+.cache/
+.cmakesettings.json
+CMakeSettings.json
+
+# Intellisense files
+ipch/
+*.db
+*.opendb
+
+# ==========================
+# Editor / OS junk
+# ==========================
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# CLion / JetBrains (if ever used)
+# ==========================
+.idea/
+cmake-build-*/
+
+# ==========================
+# Misc
+# ==========================
+*.tmp
+*.temp
